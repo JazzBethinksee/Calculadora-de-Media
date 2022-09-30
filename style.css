@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-color: #262626;
+    background-size: 80vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+.container {
+    text-align: center;
+    padding: 80px;
+    height: 100vh;
+    left:auto;
+  }
+  
+.page-title {
+    color:#ffffff;
+    margin: 0 10 5px;
+    padding: 5px 0 0 ;
+  }
+  
+.page-subtitle {
+    color:#ffffff;
+    margin-top: 10px;
+    padding: 0 0 30px;
+  }
+
+.bethinksee-logo {
+    width: 120px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+.bethinksee-logo:hover {
+  opacity: 0.3;
+  }
+
+.main {
+    display: inline;
+    position: absolute;
+  }
+
+.notas {
+    padding: 100px;
+    top: 30vh;
+    left: -2%;
+    right: auto;
+    color: #ffffff;
+    line-height: 5px;
+  }
+
+.notas > ul > h3 {
+    text-align: center;
+  }
+
+.notas > ul {
+    list-style: none; 
+  }
+
+.media {
+    padding: 120px;
+    top: 35vh;
+    right: 6%;
+    left: auto;
+    color: #ffffff;
+    display: block;
+  }
+
+.resultado {
+    width: 200px;
+    right: 9%;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 20px;
+    top: 31vh;
+    padding: 100px;
+}
+
+.button {
+    position: relative;
+    left: 20px;
+}
+
+.button:hover {
+  background: #b22222;
+  color: #ffffff; 
+}
+
+.imersao-logo {
+    width: 150px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+
+.imersao-logo:hover {
+  opacity: 0.3;
+}
+  
+.alura {
+    width: 235px;
+    position: absolute;
+    top: 15px;
+    color: #FFFFFF;
+    font-size: 20px;
+    left: 130px;
+  }
+  
+.aprovado-logo {
+    opacity: 1;
+	  transition: 400ms;
+	  box-shadow: 10px 10px 10px 10px #000000; 
+  }
+.aprovado-logo:hover {
+  opacity: 0.3;
+}
+
+footer {
+    text-align: center;
+    background: url("fundo.jpg");
+    padding: 60px;
+    margin: -10;
+  }
+
+.bethinksee-logorodape {
+   width: 200px;
+}
+
+.bethinksee-logorodape:hover {
+  opacity: 0.3;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+ /* .notas > ul > li {
+    display: inline-block
+  } */

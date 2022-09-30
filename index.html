@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="js">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Calculadora de Média Bethinksee </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        
+    </head>
+ 
+    <body>
+        <div class="container">
+        <a href="https://cursos.alura.com.br/imersoes" target="_blank">
+        <img src="img/imersao-logo.svg" alt="Logo da imersão DEV" class="imersao-logo"> </a>
+        <p class="alura">Alura Aula 01</p>
+        
+        <h1 class="page-title"> Calculadora de média</h1>
+        <p class="page-subtitle"> Descubra qual a sua média de nota de todas as provas! </p>
+
+        <div class="notas main">
+            <ul>
+                <h3>Suas notas:</h3>
+                <li><br><span>1º Bimestre</span> <input type="number" id="bimestre1"></li>
+                <li><br><span>2º Bimestre</span> <input type="number" id="bimestre2"></li>
+                <li><br><span>3º Bimestre</span> <input type="number" id="bimestre3"></li>
+                <li><br><span>4º Bimestre</span> <input type="number" id="bimestre4"></li>
+            </ul>
+        
+        <div>
+            <button class="button floatLeft" type="submit" onclick="Calcular()">Calcular</button>
+            <button class="button floatLeft" type="submit" onclick="Limpar()">Limpar</button>
+            </div>
+        </div>
+    
+        <div class="media main">
+            <h3 id="mediaFinal"></h3>
+            <h3 id="resultado"></h3>
+        </div>
+    
+        <p class="resultado">Seu Resultado:</p>
+          <img src="img/aprovado-logo.PNG" alt="Logo notas" class="aprovado-logo">
+        </div>
+       
+        <a href="https://github.com/JazzBethinksee" target="_blank">
+          <img src="img/bethinksee-logo.png" alt="Logo de acesso para o github de Jéssica" class="bethinksee-logo"></a>
+    
+    <script src="main.js"></script>
+   
+    <footer>
+        <a href="https://github.com/JazzBethinksee" target="_blank">
+        <img src="img/bethinksee-logo.png" class="bethinksee-logorodape"> </a>
+        <p class="copyright">&copy; Copyright Bethinksee Jazz - 2022</p>
+    </footer>
+  </body>
+</html>
+
+<!--
+    <div class="script">
+        <script>
+            document.write("Bem vindo, "+nomeAluno+"!"+"<br>");
+            document.write("Sua Nota Final é: "+notaFixada+"<br>");
+            document.write("Você foi: "+resultado);
+        </script>
+    </div>
+    -->
